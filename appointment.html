@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book a private dental appointment at Aurelia Dental Atelier.">
+  <meta property="og:title" content="Book Appointment | Aurelia Dental Atelier"><meta property="og:description" content="Reserve your private dental consultation online.">
+  <title>Appointment | Aurelia Dental Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="appointment">
+  <div class="loader"><span></span></div><header class="site-header" data-header><a class="brand" href="index.html"><span class="brand-mark">A</span><span><strong>Aurelia</strong><small>Dental Atelier</small></span></a><nav class="nav" data-nav><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="testimonials.html">Stories</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav><a class="nav-cta" href="appointment.html">Book Visit</a><button class="menu-toggle" data-menu-toggle><span></span><span></span><span></span></button></header>
+  <main>
+    <section class="page-hero appointment-hero"><div class="container page-hero-inner reveal"><p class="eyebrow">Reserve care</p><h1>Your private appointment, arranged with care.</h1><p>Share your preferences and our concierge team will confirm the best available visit.</p></div></section>
+    <section class="section"><div class="container booking-grid">
+      <aside class="booking-aside glass reveal"><h2>What happens next?</h2><ol><li>Submit your preferred date and service.</li><li>Our concierge confirms availability.</li><li>You receive preparation notes and directions.</li></ol><div class="mini-contact"><strong>Emergency?</strong><p>Call +91 98765 43210 for same-day urgent care.</p></div></aside>
+      <form class="booking-form reveal" id="appointmentForm" novalidate>
+        <div class="form-row"><label for="fullName">Full Name</label><input id="fullName" name="fullName" type="text" autocomplete="name" required><small class="error"></small></div>
+        <div class="form-grid"><div class="form-row"><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel" autocomplete="tel" required><small class="error"></small></div><div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><small class="error"></small></div></div>
+        <div class="form-grid"><div class="form-row"><label for="service">Service Selection</label><select id="service" name="service" required><option value="">Choose a service</option><option>Teeth Cleaning</option><option>Cosmetic Dentistry</option><option>Dental Implants</option><option>Orthodontics</option><option>Root Canal Treatment</option><option>Teeth Whitening</option><option>Dental Crowns</option><option>Emergency Dental Care</option></select><small class="error"></small></div><div class="form-row"><label for="dentist">Preferred Dentist</label><select id="dentist" name="dentist" required><option value="">Choose a dentist</option><option>Dr. Elena Vale</option><option>Dr. Rohan Mehta</option><option>Dr. Sofia Khan</option><option>No preference</option></select><small class="error"></small></div></div>
+        <div class="form-grid"><div class="form-row"><label for="date">Date Picker</label><input id="date" name="date" type="date" required><small class="error"></small></div><div class="form-row"><label for="time">Time Slot Selection</label><select id="time" name="time" required><option value="">Choose a time</option><option>08:30 AM</option><option>10:00 AM</option><option>11:30 AM</option><option>02:00 PM</option><option>04:30 PM</option><option>06:30 PM</option></select><small class="error"></small></div></div>
+        <div class="form-row"><label for="notes">Additional Notes</label><textarea id="notes" name="notes" rows="5" placeholder="Tell us about pain, goals, previous treatment, or timing preferences."></textarea><small class="error"></small></div>
+        <button class="btn btn-primary form-submit" type="submit">Request Appointment</button>
+        <div class="form-success" id="formSuccess" role="status" aria-live="polite"></div>
+      </form>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">A</span><span><strong>Aurelia</strong><small>Dental Atelier</small></span></a><p>Private dental care arranged around your schedule.</p></div><div><h3>Clinic</h3><a href="about.html">About</a><a href="services.html">Services</a><a href="testimonials.html">Testimonials</a><a href="faq.html">FAQ</a></div><div><h3>Contact</h3><p>27 Meridian House, Park Avenue, New Delhi</p><p>+91 98765 43210</p><p>care@aureliadental.com</p></div><div><h3>Hours</h3><p>Mon-Sat: 8:00 AM - 8:00 PM</p><p>Sunday: Emergency care only</p></div></div><div class="footer-bottom container"><span>© 2026 Aurelia Dental Atelier.</span><span>Privacy · Accessibility · Patient Care</span></div></footer><button class="back-to-top" data-back-to-top>↑</button><script src="js/script.js"></script>
+</body>
+</html>
